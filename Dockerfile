@@ -7,4 +7,4 @@ RUN rm -f /var/www/html/index.html
 
 EXPOSE 80
 
-CMD ["apache2-foreground"]
+CMD ["sh", "-c", "apache2-foreground"]
